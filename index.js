@@ -461,7 +461,6 @@ client.on("interactionCreate", async interaction => {
 
 const warnings = readJson(warningsPath, {});
 client.login(token);
-''',
 "README.md": r'''# Blor System
 
 Discord moderation and DM broadcast bot using Node.js and discord.js v14.
